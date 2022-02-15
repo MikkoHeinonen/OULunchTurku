@@ -6,13 +6,12 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.oulunchturku"
+        applicationId 'OULunchTurku'
         minSdk 26
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
-
+        applicationId 'com.example.oulunchturku'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        versionCode 1
     }
 
     buildTypes {
@@ -25,6 +24,15 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    flavorDimensions 'dimens'
+    productFlavors {
+        storetest {
+            dimension 'dimens'
+            applicationId 'my.storetest.one'
+        }
+    }
+
+
 }
 
 dependencies {

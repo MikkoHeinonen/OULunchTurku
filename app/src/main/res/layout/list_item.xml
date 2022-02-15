@@ -5,7 +5,8 @@
     android:animateLayoutChanges="false"
     android:orientation="vertical"
     android:padding="8dp"
-    android:background="@drawable/listitem_selected">
+    android:background="@drawable/listitem_selected"
+    android:focusable="true">
 
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:textStyle="bold"/>
 
     <TextView
@@ -21,6 +22,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:textSize="18sp"
+        android:textSize="15sp"
          />
 </LinearLayout>

@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<HashMap<String, String>> eatteri_lunch;
     ArrayList<HashMap<String, String>> radio_lunch;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -98,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            Toast.makeText(MainActivity.this,"Loading data..." ,Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this,"Loading data..." ,Toast.LENGTH_SHORT).show();
 
         }
 
@@ -149,8 +150,12 @@ public class MainActivity extends AppCompatActivity {
                         resultNode = (TagNode)foods[i];
                         getPlainText(lunch_buffer, resultNode, true);
 
-                        temp.put("day", date_buffer.toString());
-                        temp.put("lunch",lunch_buffer.toString());
+                        if (date_buffer.length() !=0 && lunch_buffer.length() != 0){
+                            temp.put("day", date_buffer.toString());
+                            temp.put("lunch",lunch_buffer.toString());}
+                        else {
+                            temp.put("day", "EMPTY");
+                            temp.put("lunch","EMPTY"); }
 
                         weekdays.add(date_buffer.toString());
 
@@ -176,8 +181,13 @@ public class MainActivity extends AppCompatActivity {
 
                     //    lunchbuffer.toString().replace("&auml;","ä");
                     //    temp.put("day", weekdays.get(round));
+                    //    temp.put("day", daybuffer.toString());
 
-                        temp.put("day", daybuffer.toString());
+                        if (daybuffer.length() != 0) {
+                            temp.put("day", daybuffer.toString());}
+                        else {
+                            temp.put("day", "EMPTY");}
+
                         round += 1;
 
                         if (lunchbuffer.length() != 0) {
@@ -227,12 +237,17 @@ public class MainActivity extends AppCompatActivity {
             lv_radio = (ListView) findViewById(R.id.radiolist);
             lv_radio.setAdapter(adapter2);
 
+            if(dayofweek < 6) {
+                lv_eatteri.setItemChecked(dayofweek, true);
+                lv_radio.setItemChecked(dayofweek, true);
+                lv_eatteri.setSelection(dayofweek);
+                lv_radio.setSelection(dayofweek);
 
-            lv_eatteri.setItemChecked(dayofweek,true);
-            lv_radio.setItemChecked(dayofweek,true);
-            lv_eatteri.setSelection(dayofweek);
-            lv_radio.setSelection(dayofweek);
+                lv_eatteri.setOnItemClickListener(null);
 
+                Toast.makeText(MainActivity.this,"Data loaded..." ,Toast.LENGTH_SHORT).show();
+
+            }
         }
     }
 
