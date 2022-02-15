@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <script src="https://cdn.serviceform.com/assets/embeds/sf-tagomo-privacy.js"></script>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta property="og:title" content="Lounaslista" />
+        <meta property="og:description" content="" />
+        <title>Lounaslista | Herkkupiste. catering</title>
+        <meta name="description" content="Tervetuloa tutustumaan Herkkupiste Cateringiin! Herkullinen ruoka on tärkeä osa ikimuistoista tilaisuutta. " />
+        <meta name="keywords" content="ruoka, catering, pitopalvelu, turku" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+
+        <link href="https://www.herkkupiste.fi/media/css/icons.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="https://www.herkkupiste.fi/media/css/lightbox.css" rel="stylesheet" type="text/css" media="screen" />
+
+        <!-- Moduulit -->
+        <link rel="stylesheet" href="https://www.herkkupiste.fi/media/moduulit/galleria/css/galleria.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" href="https://www.herkkupiste.fi/media/moduulit/slideshow/css/slideshow.css" type="text/css" media="screen, projection" />
+
+        <!-- Ulkoasu -->
+        <link href="https://www.herkkupiste.fi/media/ulkoasut/tayslevea/css/template.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="https://www.herkkupiste.fi/media/css/grid.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="https://www.herkkupiste.fi/media/css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
+
+        <link href="https://www.herkkupiste.fi/media/css/print.css" rel="stylesheet" type="text/css" media="print" />
+
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" href="https://www.herkkupiste.fi/media/css/oldie.css" type="text/css" media="screen, projection" />
+        <![endif]-->
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+        <script type="text/javascript" src="https://www.herkkupiste.fi/media/js/lightbox.js"></script>
+        <meta name="google-site-verification" content="-gKVVg1XRaKc2MDj2rHX1wrmmAekruLWDGM9GisUfbU" />
+        <script src="//www.vilperi.fi/media/core/js/device-detect.js"></script>
+        <script>(function() {
+            var _fbq = window._fbq || (window._fbq = []);
+            if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+            }
+            _fbq.push(['addPixelId', '319582238235287']);
+            })();
+            window._fbq = window._fbq || [];
+            window._fbq.push(['track', 'PixelInitialized', {}]);
+        </script>
+        <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=319582238235287&amp;ev=PixelInitialized" /></noscript>
+    </head>
+    <body data-colortheme="4" lang="FI" class="sivu126 lang-fi ">
+        <div class="background-extra"></div>
+        <div id="wrapall"><div class="container">
+
+            <div id="top"><div class="top-body clearfix">
+                <div id="header">
+                    <div class="arkki">
+                        <div class="header-body clearfix">
+                            <div class="logo"><p><a href="https://www.herkkupiste.fi/etusivu.html"><img src="https://www.herkkupiste.fi/media/tiedostot/cache/logo-191x38.png" alt="Herkkupiste catering" width="191" height="38" /></a></p></div><div id="fb-root"></div>
+                            <script>(function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s); js.id = id;
+                                js.src = "//connect.facebook.net/fi_FI/sdk.js#xfbml=1&appId=139871729455578&version=v2.0";
+                                fjs.parentNode.insertBefore(js, fjs);
+                                }(document, 'script', 'facebook-jssdk'));</script>
+                            <div class="somet">
+                                <div class="some some1">
+                                    <img src="https://www.herkkupiste.fi/media/tiedostot/fb.png" /><div class="fb-like" data-href="https://www.facebook.com/Herkkupiste?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                                </div>
+
+                                <div class="some some2">
+                                    <style>.ig-b- { display: inline-block; }
+                                        .ig-b- img { visibility: hidden; }
+                                        .ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+                                        .ig-b-v-24 { width: 137px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
+                                        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+                                        .ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }</style>
+                                    <img src="https://www.herkkupiste.fi/media/tiedostot/insta.png" /><a href="http://instagram.com/herkkupiste?ref=badge" class="ig-b- ig-b-v-24"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a>
+                                </div>
+                            </div>																				</div>
+                    </div>
+                </div>
+
+                <div id="nav">
+                    <div class="arkki">
+                        <div class="nav-fx1"><div class="nav-fx2">
+                            <div class="nav-body">
+                                <div class="rivi">
+
+                                    <div class="valikko clearfix">
+                                        <div class="valikko-napit clearfix">
+                                            <div class="valikko-koti"><a href="/"><i class="icon-home icon-white"></i></a></div>
+                                            <div class="valikko-avaa"><a href="/"><i class="icon-th-list icon-white"></i> Valikko</a></div>
+                                        </div>
+                                        <div class="valikko-lista">
+                                            <ul class="menu clearfix">
+
+                                                <li class="grid_2 first level1 mnavi item1
+
+  noTablet
+ first level1
+">
+
+                                                    <a href="https://www.herkkupiste.fi/etusivu.html" target="_top">
+                                                        <span class="link">
+                                                            Etusivu
+
+                                                            <i class="ikoni icon-chevron-right"></i>
+
+                                                        </span>
+                                                    </a>
+
+
+                                                </li>
+
+                                                <li class="grid_2 level1 mnavi item75
+
+  noTablet
+ level1
+">
+
+                                                    <a href="https://www.herkkupiste.fi/palvelut.html" target="_top">
+                                                        <span class="link">
+                                                            Palvelut
+
+                                                            <i class="ikoni icon-chevron-right"></i>
+
+                                                        </span>
+                                                    </a>
+
+
+                                                </li>
+
+                                                <li class="grid_2 level1 mnavi item76
+
+  noTablet
+ level1
+">
+
+                                                    <a href="https://www.herkkupiste.fi/menut.html" target="_top">
+                                                        <span class="link">
+                                                            Menut
+
+                                                            <i class="ikoni icon-chevron-right"></i>
+
+                                                        </span>
+                                                    </a>
+
+
+                                                </li>
+
+                                                <li class="grid_2 level1 mnavi item83
+
+  noTablet
+ level1
+">
+
+                                                    <a href="https://www.herkkupiste.fi/juhlatiloja.html" target="_top">
+                                                        <span class="link">
+                                                            Juhlatiloja
+
+                                                            <i class="ikoni icon-chevron-right"></i>
+
+                                                        </span>
+                                                    </a>
+
+
+                                                </li>
+
+                                                <li class="grid_2 current level1 mnavi item126
+
+  noTablet
+ current level1 active
+">
+
+                                                    <a href="https://www.herkkupiste.fi/lounaslista.html" target="_top">
+                                                        <span class="link">
+                                                            Lounaslista
+
+                                                            <i class="ikoni icon-chevron-right"></i>
+
+                                                        </span>
+                                                    </a>
+
+
+                                                </li>
+
+                                                <li class="grid_2 level1 mnavi item85
+
+  noTablet
+ level1
+">
+
+                                                    <a href="https://www.herkkupiste.fi/galleria.html" target="_top">
+                                                        <span class="link">
+                                                            Galleria
+
+                                                            <i class="ikoni icon-chevron-right"></i>
+
+                                                        </span>
+                                                    </a>
+
+
+                                                </li>
+
+                                                <li class="grid_2 last level1 mnavi item27
+
+  noTablet
+ last level1
+">
+
+                                                    <a href="https://www.herkkupiste.fi/ota-yhteytta.html" target="_top">
+                                                        <span class="link">
+                                                            Ota yhteyttä
+
+                                                            <i class="ikoni icon-chevron-right"></i>
+
+                                                        </span>
+                                                    </a>
+
+
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <div class="mobiililinkki">
+                                        <a href="https://www.herkkupiste.fi/ota-yhteytta.html" class="nappi vari4 tayslevea pieni huomio1">Ota yhteyttä</a>
+                                    </div>						</div>
+                            </div>
+                        </div></div>
+                    </div>
+                </div>
+            </div></div>
+
+            <div id="scase"><div class="scase-body">
+
+                <div id="showcase">
+                    <div class="arkki">
+                        <div class="showcase-body">
+                            <div class="rivi">
+                                <div class="case"><h1 style="text-align: center;"><strong>HERKKUPISTE LOUNAS VKO <br /></strong></h1>
+                                    <h3 style="text-align: center;">&nbsp;</h3>
+                                    <h3 style="text-align: center;"><strong>Biolinja 12, arkisin klo 10.30-14.00<br />Lounas 10,90&euro;, keittolounas 9,20&euro; (vuonna 2022)<br /></strong></h3>
+                                    <p style="text-align: center;"><strong>Lounas on suljettu 20.12.-9.1.2022<br /><br /></strong><br /><strong>Eth&auml;n tule sairaana ravintolaan! </strong>Tultaessa ravintolaan pese k&auml;det tai k&auml;yt&auml; k&auml;sihuuhdetta. Ravintolassa on k&auml;sihuuhdetta saatavilla useassa paikassa.</p></div>					</div>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+
+            <div id="sisalto" role="main">
+                <div class="arkki">
+                    <div class="sisalto-body">
+                        <div id="main-content">
+                            <div class="rivi">
+                                <div id="content" class="grid_12"><div class="pad">
+                                    <table style="width: 522px; height: 410px;" class="lounas" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td>Maanantai</td>
+                                                <td>Tulossa</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tiistai</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Keskiviikko&nbsp;</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Torstai</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Perjantai&nbsp;</td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <h3><strong>VIIKKO 51-1 (20.12.-9.1.)<br /></strong></h3>
+                                    <table style="width: 522px; height: 406px;" class="lounas" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td>Maanantai</td>
+                                                <td>SULJETTU</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tiistai</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Keskiviikko&nbsp;</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Torstai</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Perjantai</td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <h3><strong>LOUNAASEEN SIS&Auml;LTYY MONIPUOLINEN SALAATTIBUFFET SEK&Auml; KAHVI/TEE &amp; PIENI MAKEA</strong></h3></div></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div id="footer">
+                <div class="arkki">
+                    <div class="footer-fx1"><div class="footer-fx2">
+                        <div class="footer-body">
+                            <div class="rivi">
+                                <div class="palstat">
+                                    <div class="lista-rivi clearfix"><div class="gridi grid_4 footer_punanen"><div class="pad">
+                                        <div class="palsta">
+                                            <div class="palsta-yla"></div>
+                                            <div class="palsta-content">
+                                                <p><img src="https://www.herkkupiste.fi/media/tiedostot/footer_logo.png" alt="" /></p>
+                                            </div>
+                                            <div class="palsta-ala"></div>
+                                        </div>
+                                    </div></div>
+                                        <div class="gridi grid_8 footer_harmaa"><div class="pad">
+                                            <div class="palsta">
+                                                <div class="palsta-yla"></div>
+                                                <div class="palsta-content">
+                                                    <p>&nbsp;<a href="mailto:myynti@herkkupiste.fi" class="email">myynti@herkkupiste.fi</a>&nbsp; &nbsp; - &nbsp;&nbsp;&nbsp;<a href="tel:0440591009" class="call">044 059 1009</a>&nbsp; &nbsp; -&nbsp; &nbsp; <a href="https://www.herkkupiste.fi/media/tiedostot/tietosuoja-ja-rekisteriseloste-herkkupiste.pdf" target="_blank">Rekisteri- ja tietosuojaseloste</a></p>
+                                                </div>
+                                                <div class="palsta-ala"></div>
+                                            </div>
+                                        </div></div>
+                                    </div>
+                                </div>				</div>
+                        </div>
+                    </div></div>
+                </div>
+            </div>
+
+
+            <div id="copy">
+                <div class="rivi">
+                    <div class="copy-body clearfix">
+                        <div class="sitemap">
+                            <ul>
+                                <li><a href="https://www.herkkupiste.fi/sivukartta.html">Sivukartta</a></li>
+                                <li><a href="https://www.herkkupiste.fi/media/tiedostot/tietosuoja-ja-rekisteriseloste-herkkupiste.pdf" target="_blank">Tietosuoja- ja rekisteriseloste</a></li>
+                            </ul>			</div>
+                        <div class="copyright">
+                            &copy; Herkkupiste. catering			</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="takaisinylos">
+                <a class="nappi huomio-pois tayslevea" href="#">Takaisin ylös <i class="ikoni icon-arrow-up"></i></a>
+            </div>
+
+            <script type="text/javascript" src="https://www.herkkupiste.fi/media/js/vilperi.js"></script>
+        </div></div>
+        <!-- Fontit -->
+
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,700' rel='stylesheet' type='text/css'><script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-1767520-7']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+        <script type="text/javascript">
+            var _saq = _saq || [];
+            (function() {
+            var account = 'herkkupiste_fi';
+            var snbscript = document.createElement('script');
+            snbscript.type = 'text/javascript';
+            snbscript.async = true;
+            snbscript.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'eu1.snoobi.com/snoop.php?tili=' + account;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(snbscript, s);
+            })();
+        </script><!--[if lt IE 9]>
+<script src="https://www.herkkupiste.fi/media/js/respond.js"></script>
+<![endif]-->
+    </body>
+</html>
