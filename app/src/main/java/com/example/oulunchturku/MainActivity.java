@@ -124,9 +124,13 @@ public class MainActivity extends AppCompatActivity {
             List<String> weekdays = new ArrayList<String>();
 
             final String eweekdays ="//article//section//section//section//div//h2[@class='elementor-heading-title elementor-size-default']"; //Weekdays as string
-            final String elunch ="//section//section//section//div[@class='elementor-widget-container']/p[1]";  //foods from 0 to 4 items
+            final String elunch ="//section//section//section//div//div[@class='elementor-widget-container']//p";  //K-RAUTA
+            //final String elunch ="//section//section//section//div//div[@class='elementor-widget-container']//p";  //K-RAUTA
 
-            final String rlunch ="//tbody//tr//td"; //Weekday + lunch after each other so 10 items
+
+            final String rweekdays ="//div[@class='wp-block-herkkupiste-lunch-item']//div[1]//div//div//h3"; //WEEKDAYS FOR RADIOMETER
+            final String rlunch ="//div[@class='wp-block-herkkupiste-lunch-item']//div[1]//div//div//p"; //LUNCH
+
 
             if (eatteriStr != null && radioStr != null) {
                 eNode = cleaner.clean(eatteriStr);
@@ -137,18 +141,37 @@ public class MainActivity extends AppCompatActivity {
                     Object[] wdays = eNode.evaluateXPath(eweekdays);   //Eatteri days
                     Object[] foods = eNode.evaluateXPath(elunch);       //Eatteri lunch
 
-
+                    int round = 0;
                     for (int i = 0; i<5;i++){
 
                         StringBuffer date_buffer = new StringBuffer();
                         StringBuffer lunch_buffer = new StringBuffer();
+                        StringBuffer lunch_buffer_three = new StringBuffer();
                         HashMap<String, String> temp = new HashMap<>();
+
+                        int foodperday=0;
 
                         TagNode resultNode = (TagNode)wdays[i];
                         getPlainText(date_buffer, resultNode, true);
 
-                        resultNode = (TagNode)foods[i];
-                        getPlainText(lunch_buffer, resultNode, true);
+                        for (int loopthree =0; foodperday<3; loopthree++) {
+
+                            resultNode = (TagNode)foods[round];
+
+                            getPlainText(lunch_buffer_three, resultNode, false  );
+
+                            //String paska = lunch_buffer_three.toString();
+                            //char[] testisetti = new char[2];
+                            //testisetti = paska.toCharArray();
+
+                                if (lunch_buffer_three.length() > 3) {
+                                getPlainText(lunch_buffer, resultNode, false  );
+                                    foodperday++;
+                                }
+                                else {}
+
+                            round += 1;
+                        }
 
                         if (date_buffer.length() !=0 && lunch_buffer.length() != 0){
                             temp.put("day", date_buffer.toString());
@@ -162,21 +185,21 @@ public class MainActivity extends AppCompatActivity {
                         eatteri_lunch.add(temp);
                     }
 
-                    foods = rNode.evaluateXPath(rlunch);             //Radiometer days+lunches
+                    wdays = rNode.evaluateXPath(rweekdays);             //Radiometer weekdays
+                    foods = rNode.evaluateXPath(rlunch);                //Radiometer lunch
 
-                    int round = 0;
 
-                    for (int i = 0; i<10; i=i+2){
+                    for (int i = 0; i<5; i=i+1){
 
                         StringBuffer daybuffer = new StringBuffer();
                         StringBuffer lunchbuffer = new StringBuffer();
 
                         HashMap<String, String> temp = new HashMap<>();
 
-                        TagNode lunchNode = (TagNode)foods[i];       // get day
+                        TagNode lunchNode = (TagNode)wdays[i];
                         getPlainText(daybuffer, lunchNode, false  );
 
-                        lunchNode = (TagNode)foods[i+1];   // get lunch
+                        lunchNode = (TagNode)foods[i];   // get lunch
                         getPlainText(lunchbuffer, lunchNode, false  );
 
                     //    lunchbuffer.toString().replace("&auml;","ä");
@@ -188,7 +211,6 @@ public class MainActivity extends AppCompatActivity {
                         else {
                             temp.put("day", "EMPTY");}
 
-                        round += 1;
 
                         if (lunchbuffer.length() != 0) {
                             temp.put("lunch", lunchbuffer.toString());}

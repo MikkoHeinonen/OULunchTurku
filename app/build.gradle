@@ -31,6 +31,7 @@ android {
             applicationId 'my.storetest.one'
         }
     }
+    namespace 'com.example.oulunchturku'
 
 
 }
