@@ -154,15 +154,16 @@ public class MainActivity extends AppCompatActivity {
                         TagNode resultNode = (TagNode)wdays[i];
                         getPlainText(date_buffer, resultNode, true);
 
-                        for (int loopthree =0; foodperday<3; loopthree++) {
+                        resultNode = (TagNode)foods[i];
+                        getPlainText(lunch_buffer, resultNode, false  );
+
+/*                        for (int loopthree =0; foodperday<3; loopthree++) {
 
                             resultNode = (TagNode)foods[round];
 
-                            getPlainText(lunch_buffer_three, resultNode, false  );
 
-                            //String paska = lunch_buffer_three.toString();
-                            //char[] testisetti = new char[2];
-                            //testisetti = paska.toCharArray();
+
+                            getPlainText(lunch_buffer_three, resultNode, false  );
 
                                 if (lunch_buffer_three.length() > 3) {
                                 getPlainText(lunch_buffer, resultNode, false  );
@@ -171,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
                                 else {}
 
                             round += 1;
-                        }
+                        }*/
 
                         if (date_buffer.length() !=0 && lunch_buffer.length() != 0){
                             temp.put("day", date_buffer.toString());

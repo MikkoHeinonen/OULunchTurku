@@ -11,7 +11,9 @@ android {
         targetSdk 31
         applicationId 'com.example.oulunchturku'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        versionCode 1
+        versionCode 01
+
+        archivesBaseName = "${applicationId}-v${versionCode}" //MIkko lisännyt 17.1.2023
     }
 
     buildTypes {
